@@ -9,7 +9,7 @@ Additionally, your team will need to build a simple CRUD web application based o
 * Finance managers can log in and view all reimbursement requests and past history for all employees in the company. 
 * Finance managers are authorized to approve and deny requests for expense reimbursement.
 
-## Tech Stack
+## Tech Stac k 
 - [ ] Java 8
 - [ ] JUnit
 - [ ] Mockito
