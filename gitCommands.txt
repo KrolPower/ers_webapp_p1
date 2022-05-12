@@ -1,0 +1,14 @@
+--to switch branch
+git branch chris
+git checkout chris
+
+
+
+-- project stack
+Spring boot
+PostgreSQL
+JPA/Hibernate
+Restful API
+Crud Applications
+Postman
+Servlets/Tomcat
