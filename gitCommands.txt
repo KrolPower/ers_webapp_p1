@@ -11,4 +11,4 @@ JPA/Hibernate
 Restful API
 Crud Applications
 Postman
-Servlets/Tomcat
+Servlets
