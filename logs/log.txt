@@ -1,4 +1,0 @@
-2022-05-11 20:25:06 TRACE Application:62 - In createManager
-2022-05-11 20:25:06 TRACE Application:63 - Manager Created
-2022-05-11 20:25:13 TRACE Application:40 - In getAllManager
-2022-05-11 20:25:13 TRACE Application:41 - Managers Retrieved
