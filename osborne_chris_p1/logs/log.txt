@@ -107,3 +107,36 @@
 2022-05-17 09:27:30 TRACE Application:97 - Manager not found for this id :: 31
 2022-05-17 09:27:30 TRACE Application:105 - Manager Updated
 2022-05-17 09:35:41 TRACE Application:94 - In updateManager
+2022-05-17 13:09:29 TRACE Application:46 - In getAllManager
+2022-05-17 13:09:29 TRACE Application:47 - Managers Retrieved
+2022-05-17 13:22:40 TRACE Application:71 - In createManager
+2022-05-17 13:22:40 TRACE Application:72 - Manager Created
+2022-05-17 13:22:45 TRACE Application:113 - In updateManager
+2022-05-17 13:22:45 TRACE Application:116 - Manager not found for this id :: 31
+2022-05-17 13:22:45 TRACE Application:124 - Manager Updated
+2022-05-17 13:22:50 TRACE Application:113 - In updateManager
+2022-05-17 13:22:50 TRACE Application:116 - Manager not found for this id :: 31
+2022-05-17 13:22:50 TRACE Application:124 - Manager Updated
+2022-05-17 13:22:59 TRACE Application:146 - In deleteManager
+2022-05-17 13:22:59 TRACE Application:153 - Manager Deleted
+2022-05-17 13:23:08 TRACE Application:146 - In deleteManager
+2022-05-17 13:23:17 TRACE Application:46 - In getAllManager
+2022-05-17 13:23:17 TRACE Application:47 - Managers Retrieved
+2022-05-17 13:23:34 TRACE Application:134 - In getAllManager
+2022-05-17 13:23:34 TRACE Application:135 - Managers Retrieved
+2022-05-17 13:23:46 TRACE Application:58 - In getManagerById
+2022-05-17 13:23:50 TRACE Application:58 - In getManagerById
+2022-05-17 13:23:50 TRACE Application:61 - Manager By ID Retrieved
+2022-05-17 13:44:29 TRACE Application:46 - In getAllManager
+2022-05-17 13:44:29 TRACE Application:47 - Managers Retrieved
+2022-05-17 13:44:37 TRACE Application:146 - In deleteManager
+2022-05-17 13:44:37 TRACE Application:153 - Manager Deleted
+2022-05-17 13:44:47 TRACE Application:146 - In deleteManager
+2022-05-17 13:45:03 TRACE Application:146 - In deleteManager
+2022-05-17 13:45:03 TRACE Application:153 - Manager Deleted
+2022-05-17 13:45:20 TRACE Application:134 - In getAllManager
+2022-05-17 13:45:20 TRACE Application:135 - Managers Retrieved
+2022-05-17 13:45:30 TRACE Application:46 - In getAllManager
+2022-05-17 13:45:30 TRACE Application:47 - Managers Retrieved
+2022-05-17 14:39:09 TRACE Application:71 - In createManager
+2022-05-17 14:39:09 TRACE Application:72 - Manager Created

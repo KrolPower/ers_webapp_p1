@@ -7,7 +7,7 @@ import com.osborne.model.Manager;
 
 
 @Repository
-public interface ManagerRepository extends JpaRepository<Manager, Long>{
+public interface ManagerDAO extends JpaRepository<Manager, Long>{
 	
 	
 

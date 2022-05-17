@@ -22,8 +22,8 @@ import com.osborne.Application;
 import com.osborne.exception.ResourceNotFoundException;
 import com.osborne.model.Employee;
 import com.osborne.model.Manager;
-import com.osborne.repository.EmployeeRepository;
-import com.osborne.repository.ManagerRepository;
+import com.osborne.repository.EmployeeDAO;
+import com.osborne.repository.ManagerDAO;
 
 @RestController
 @RequestMapping("/api/v1/")
@@ -31,11 +31,11 @@ public class ManagerController {
 	private static Logger logger = Logger.getLogger(Application.class);
 	
 	@Autowired
-	private ManagerRepository managerRepository;
+	private ManagerDAO managerRepository;
 	
 	// for viewing all employees as a manager
 	@Autowired
-	private EmployeeRepository employeeRepository;
+	private EmployeeDAO employeeRepository;
 	
 
 	@GetMapping("managers")
@@ -74,32 +74,33 @@ public class ManagerController {
 	}
     
 
-	@RequestMapping({ "managers/id/homepage" })
-	public String viewManagerHomepage() {
+    @GetMapping({ "managers/{id}/homepage" })
+	public String viewManagerHomepage(@PathVariable(value = "id") Long managerId)
 		/*
 		 * directs to the managers home-page based on the managers ID
 		 */
-
-		
-		
-		
-		
-		return "Viewing Manager Homepage";
+		throws ResourceNotFoundException {
+	    Manager manager = managerRepository.findById(managerId)
+	    .orElseThrow(() -> new ResourceNotFoundException("Manager not found for this id :: " + managerId));
+	    
+	    String display = "Viewing Manager Homepage as Manager: ";
+	    String display2 = ", With a Manager ID of: ";
+	    return display + (manager.getFirstName()) + display2 + (manager.getId()) + ".";
 	}
 	
 
-	@RequestMapping({ "managers/id/logout" })
-	public String logoutManager() {
+    @GetMapping({ "managers/{id}/logout" })
+	public String logoutManager(@PathVariable(value = "id") Long managerId)
 		/*
 		 * directs to the managers logout page based on the managers ID
 		 */
-
-		
-		
-		
-		
-		
-		return "Manager Logged Out";
+		throws ResourceNotFoundException {
+	    Manager manager = managerRepository.findById(managerId)
+	    .orElseThrow(() -> new ResourceNotFoundException("Manager not found for this id :: " + managerId));
+	    
+	    String display = "Logged out as Manager: ";
+	    String display2 = ", With a Manager ID of: ";
+	    return display + (manager.getFirstName()) + display2 + (manager.getId()) + ".";
 	}
 		
 

@@ -19,14 +19,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.osborne.exception.ResourceNotFoundException;
 import com.osborne.model.Employee;
-import com.osborne.repository.EmployeeRepository;
+import com.osborne.repository.EmployeeDAO;
 
 @RestController
 @RequestMapping("/api/v1/")
 public class EmployeeController {
 	
 	@Autowired
-	private EmployeeRepository employeeRepository;
+	private EmployeeDAO employeeRepository;
 	
 
 	@GetMapping("employees")
