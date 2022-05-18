@@ -22,8 +22,10 @@ import com.osborne.Application;
 import com.osborne.exception.ResourceNotFoundException;
 import com.osborne.model.Employee;
 import com.osborne.model.Manager;
+import com.osborne.model.Reimbursement;
 import com.osborne.repository.EmployeeDAO;
 import com.osborne.repository.ManagerDAO;
+import com.osborne.repository.ReimbursementDAO;
 
 @RestController
 @RequestMapping("/api/v1/")
@@ -33,9 +35,11 @@ public class ManagerController {
 	@Autowired
 	private ManagerDAO managerRepository;
 	
-	// for viewing all employees as a manager
 	@Autowired
 	private EmployeeDAO employeeRepository;
+	
+	@Autowired
+	private ReimbursementDAO reimbursementRepository;
 	
 
 	@GetMapping("managers")
@@ -153,4 +157,22 @@ public class ManagerController {
         logger.trace("Manager Deleted");
         return response;
     }
+    
+   
+	
+//    @GetMapping("managers/id/pendingRequests{Pending}")
+//    public ResponseEntity<Reimbursement> viewAllPendingRequests(@PathVariable(value = "Pending") String reimb_status)
+//
+//        throws ResourceNotFoundException {
+//
+//    	Reimbursement reimbursement = reimbursementRepository.findById(reimb_status)
+//          .orElseThrow(() -> new ResourceNotFoundException("Manager not found for this id :: " + reimb_status));
+//
+//        return ResponseEntity.ok().body(reimbursement);
+//    }
+    
+    
+    
+    
+    
 }

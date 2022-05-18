@@ -19,7 +19,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.osborne.exception.ResourceNotFoundException;
 import com.osborne.model.Employee;
+import com.osborne.model.Reimbursement;
 import com.osborne.repository.EmployeeDAO;
+import com.osborne.repository.ReimbursementDAO;
 
 @RestController
 @RequestMapping("/api/v1/")
@@ -27,6 +29,10 @@ public class EmployeeController {
 	
 	@Autowired
 	private EmployeeDAO employeeRepository;
+	
+	@Autowired
+	private ReimbursementDAO reimbursementRepository;
+	
 	
 
 	@GetMapping("employees")
@@ -122,4 +128,17 @@ public class EmployeeController {
         response.put("deleted", Boolean.TRUE);
         return response;
     }
+    
+    
+    @PostMapping("employees/id/newReimbursement")
+	public Reimbursement createReimbursement(@RequestBody Reimbursement Reimbursement) {
+		/*
+		 * registers a new employee
+		 */
+		return this.reimbursementRepository.save(Reimbursement);
+	}
+    
+    
+    
+    
 }

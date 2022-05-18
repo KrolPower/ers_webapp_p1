@@ -1,0 +1,4 @@
+2022-05-18 00:45:46 TRACE [com.osborne.Application]: In createManager
+2022-05-18 00:45:46 TRACE [com.osborne.Application]: Manager Created
+2022-05-18 00:45:53 TRACE [com.osborne.Application]: In getAllManager
+2022-05-18 00:45:53 TRACE [com.osborne.Application]: Managers Retrieved
