@@ -60,49 +60,39 @@ Through this project I developed and used a variety of skills, including the one
     <img src=".ERDandFlows/../ERDandFlows/UserCaseDiagram.jpg">
 <br>
 
-
-
-
-
 **Activity Diagram**
 <br>
     <img src=".ERDandFlows/../ERDandFlows/ActivityDiagram.jpg">
 <br>
 
-## Technical Requirements
-### MVP:
-- [ ] The back-end system shall use **your custom ORM** to connect to an **AWS RDS Postgres database**. 
-- [ ] JDBC logic is abstracted away by the custom ORM 
-- [ ] Programmatic persistence of entities (basic CRUD support) using custom ORM
-- [ ] File-based or programmatic configuration of entities
-- [ ] 60% line coverage of all service layer classes
-- [ ] Generated Jacoco reports that display coverage metrics
-- [ ] Usage of the java.util.Stream API within your project
-- [ ] Custom ORM source code should be included within the web application as a Maven dependency
-- [ ] The application shall use Postman to test endpoints that call your server-side components. 
-- [ ] The application shall follow proper layered architecture
-- [ ] The application shall implement log4j for appropriate logging. 
+## Technical Features
+- The back-end system uses the Hibernate ORM to connect to an **AWS RDS Postgres database**. 
+- JDBC logic is abstracted away by the custom ORM 
+- Programmatic persistence of entities (basic CRUD support) using custom ORM
+- File-based and programmatic configuration of entities
+- Generated Jacoco reports that display coverage metrics
+- Usage of the java.util.Stream API throughout
+- The application uses Postman to test endpoints that call the server-side components(See Example Images on Postman Queries Below). 
+- The application uses a layered architecture and follows the DAO design process.
+- The application uses log4j for detailed logging throughout the application. 
 
-### Stretch Goals:
-- [ ] Custom ORM supports basic transaction management (begin, commit, savepoint, rollback) 
-- [ ] Custom ORM supports connection pooling
-- [ ] Session-based caching to minimize calls to the database for already retrieved data
-- [ ] Deployment of web application to AWS EC2 (use of AWS Elastic Beanstalk is permitted) 
-- [ ] Continuous integration pipelines that builds some main branch each project (the ORM and the web app, separately)
-- [ ] Passwords shall be encrypted in Java and securely stored in the database. 
+## Example Postman Queries
+**Register Employee**
+<br>
+    <img src=".ERDandFlows/../PostmanImages/RegisterEmployee.png">
+<br>
 
-## Init Instructions
-- Create a new private repository within this organization for your custom ORM (naming convention: `ers_orm_name_p1`; with `orm_name` being replaced by the name of your custom library)
-    - Make sure to add your trainer and team members as contributors to the repo
-- Create another new private repostory within this organization for your ERS web application (naming convention: `ers_webapp_orm_name_p1`; with `orm_name` being replaced by the name of your custom library)
-    - Make sure to add your trainer and team members as contributors to the repo
+**Update Employee by ID**
+<br>
+    <img src=".ERDandFlows/../PostmanImages/Update%20Employee%20by%20ID.png">
+<br>
 
-## Presentation
-- Finalized version of custom ORM and web application must be pushed to repository within this organization by the presentation date (**May 18th, 2022**)
-- 10-15 minute live demonstration of the web application (that leverages your custom ORM); demonstration will be performed using Postman to query your API's endpoints
+**Delete Employee by ID**
+<br>
+    <img src=".ERDandFlows/../PostmanImages/DeleteEmployee%20by%20id.png">
+<br>
 
-### Resources for researching ORMs
-- [What is an ORM?](https://blog.bitsrc.io/what-is-an-orm-and-why-you-should-use-it-b2b6f75f5e2a)
-- [Hibernate Documentation](https://hibernate.org/orm/documentation/5.4/)
-- [JavaLite ActiveJDBC Documentation](https://javalite.io/documentation)
-- [Using Java Reflection](https://www.oracle.com/technical-resources/articles/java/javareflection.html)
+**Some Other Postman Queries**
+<br>
+    <img src=".ERDandFlows/../PostmanImages/PostmanQueries.png">
+<br>
