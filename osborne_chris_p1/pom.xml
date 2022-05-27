@@ -14,7 +14,7 @@
 	<artifactId>osborne_chris_p1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>osborne_chris_p1</name>
-	<description>Spring Boot PostgreSQL JPA, Hibernate CRUD Restful API example</description>
+	<description>This is my Project 1</description>
 	
 	<properties>
 		<java.version>1.8</java.version>

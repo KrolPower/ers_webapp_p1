@@ -1,53 +1,43 @@
-# Project 1: Employee Reimbursment System (ERS) using Custom ORM
-Project 1 will be to create a custom object relational mapping (ORM) framework. This framework will allow for a simplified and SQL-free interaction with the relational data source. The requires of the project are purposefully vague, the intention is to allow for you to be creative in your implementation of this framework. There are many ways that this task can be approached, and you are encouraged to explore existing Java ORM implementations in order to get some inspiration. The minimum requirement for the custom ORM is to abstract JDBC boilerplate logic from the application which uses it.
-
-Additionally, your team will need to build a simple CRUD web application based on the ERS specs provided below. You should leverage the Java EE Servlet API to expose endpoints that allow for interaction with the application.
-
-## ERS Web Application Summary
-* The Expense Reimbursement System (ERS) will manage the process of reimbursing employees for expenses incurred while on company time. 
-* All employees in the company can login and submit requests for reimbursement and view their past tickets and pending requests. 
-* Finance managers can log in and view all reimbursement requests and past history for all employees in the company. 
-* Finance managers are authorized to approve and deny requests for expense reimbursement.
+# Project 1: Employee Reimbursment System (ERS) using The Hibernate ORM
+In this project I built a CRUD web application that functions as an Expense Reimbursement System (ERS). It manages the process of reimbursing employees for expenses incurred while on company time. 
+* Some of the features that it entails are:
+  * All employees in the company can login and submit requests for reimbursement and view their past tickets and pending requests. 
+  * Financ managers can log in and view all reimbursement requests and past history for all employees in the company. 
+  * Finance managers are authorized to approve and deny requests for expense reimbursement.
 
 ## Tech Stack
-- [ ] Java 8
-- [ ] JUnit
-- [ ] Mockito
-- [ ] Apache Maven
-- [ ] Jackson library (for JSON marshalling/unmarshalling)
-- [ ] Java EE Servlet API (v4.0+)
-- [ ] PostGreSQL deployed on AWS RDS
-- [ ] Postman
-- [ ] AWS CodeBuild
-- [ ] AWS CodePipeline
-- [ ] Git SCM (on GitHub)
+Through this project I developed and used a variety of skills, including the ones listed below.
+- Java 8
+- JUnit
+- Mockito
+- Apache Maven
+- Jackson library (for JSON marshalling/unmarshalling)
+- Java EE Servlet API (v4.0+)
+- PostGreSQL deployed on AWS RDS
+- Postman
+- AWS CodeBuild
+- AWS CodePipeline
+- Git SCM (on GitHub)
 
 ## Employee User Stories 
-### MVP:
-- [ ] An Employee can login
-- [ ] An Employee can view the Employee Homepage
-- [ ] An Employee can logout
-- [ ] An Employee can submit a reimbursement request
-- [ ] An Employee can view their pending reimbursement requests
-- [ ] An Employee can view their resolved reimbursement requests
-- [ ] An Employee can view their information
-- [ ] An Employee can update their information
-### Stretch Goals:
-- [ ] An Employee can upload an image of his/her receipt as part of the reimbursement request 
-- [ ] An Employee receives an email when one of their reimbursement requests is resolved
+- An Employee can login
+- An Employee can view the Employee Homepage
+- An Employee can logout
+- An Employee can submit a reimbursement request
+- An Employee can view their pending reimbursement requests
+- An Employee can view their resolved reimbursement requests
+- An Employee can view their information
+- An Employee can update their information
 
 ## Manager User Stories
-### MVP:
-- [ ] A Manager can login
-- [ ] A Manager can view the Manager Homepage
-- [ ] A Manager can logout
-- [ ] A Manager can approve/deny pending reimbursement requests
-- [ ] A Manager can view all pending requests from all employees
-- [ ] A Manager can view all resolved requests from all employees and see which manager resolved it
-- [ ] A Manager can view all Employees
-- [ ] A Manager can view reimbursement requests from a single Employee 
-### Stretch Goals:
-- [ ] A Manager can view images of the receipts from reimbursement requests
+- A Manager can login
+- A Manager can view the Manager Homepage
+- A Manager can logout
+- A Manager can approve/deny pending reimbursement requests
+- A Manager can view all pending requests from all employees
+- A Manager can view all resolved requests from all employees and see which manager resolved it
+- A Manager can view all Employees
+- A Manager can view reimbursement requests from a single Employee 
 
 ## Flowcharts
 **State-chart Diagram (Reimbursement Statuses)** 
