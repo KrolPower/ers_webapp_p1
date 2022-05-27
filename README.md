@@ -42,27 +42,27 @@ Through this project I developed and used a variety of skills, including the one
 ## Flowcharts
 **State-chart Diagram (Reimbursement Statuses)** 
 <br>
-    <img src="../ERDandFlows/StateChartDiagram.jpg">
+    <img src=".ERDandFlows/../ERDandFlows/StateChartDiagram.jpg">
 <br>
 
 **Logical Model**
 <br>
-    <img src=".ERDandFlows/../ERDandFlows/StateChartDiagram.jpg" style="background-color: #000000; width:400px; height:400px;">
+    <img src=".ERDandFlows/../ERDandFlows/LogicalModel.jpg">
 <br>
 
 **Physical Model**
 <br>
-    <img src=".ERDandFlows/../ERDandFlows/StateChartDiagram.jpg" style="background-color: #000000; width:400px; height:400px;">
+    <img src=".ERDandFlows/../ERDandFlows/PhysicalDiagram.jpg">
 <br>
 
 **Use Case Diagram**
 <br>
-    <img src="../ERDandFlows/ERDandFlows/UserCaseDiagram.jpg" style="background-color: #000000; width:400px; height:400px;">
+    <img src="../ERDandFlows/ERDandFlows/UserCaseDiagram.jpg">
 <br>
 
 **Activity Diagram**
 <br>
-    <img src=".ERDandFlows/../ERDandFlows/StateChartDiagram.jpg" style="background-color: #000000; width:400px; height:400px;">
+    <img src=".ERDandFlows/../ERDandFlows/ActivityDiagram.jpg">
 <br>
 
 ## Technical Requirements
