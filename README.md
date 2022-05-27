@@ -42,7 +42,7 @@ Through this project I developed and used a variety of skills, including the one
 ## Flowcharts
 **State-chart Diagram (Reimbursement Statuses)** 
 <br>
-<img src="./imgs/state-chart.jpg" style="background-color: #000000;">
+<img src=".ERDandFlows\StateChartDiagram.jpg" style="background-color: #000000;">
 <br>
 
 **Reimbursement Types**
