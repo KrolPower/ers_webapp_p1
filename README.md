@@ -48,7 +48,7 @@ Through this project I developed and used a variety of skills, including the one
 Employees must select the type of reimbursement as: LODGING, TRAVEL, FOOD, or OTHER.
 
 **Logical Model**
-![](./imgs/logical.jpg)
+![](ERDandFlows\StateChartDiagram.jpg)
 
 **Physical Model**
 ![](./imgs/physical.jpg)
