@@ -92,7 +92,7 @@ Through this project I developed and used a variety of skills, including the one
     <img src=".ERDandFlows/../PostmanImages/DeleteEmployee%20by%20id.png">
 <br>
 
-**Some Other Postman Queries**
+**Some of the Other Postman Queries**
 <br>
     <img src=".ERDandFlows/../PostmanImages/PostmanQueries.png">
 <br>
