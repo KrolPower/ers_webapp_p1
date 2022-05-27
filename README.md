@@ -42,7 +42,7 @@ Through this project I developed and used a variety of skills, including the one
 ## Flowcharts
 **State-chart Diagram (Reimbursement Statuses)** 
 <br>
-<img src=".ERDandFlows\StateChartDiagram.jpg" style="background-color: #000000;">
+<img src=".ERDandFlows/../ERDandFlows/StateChartDiagram.jpg" style="background-color: #000000;">
 <br>
 
 **Reimbursement Types**
@@ -50,7 +50,7 @@ Through this project I developed and used a variety of skills, including the one
 Employees must select the type of reimbursement as: LODGING, TRAVEL, FOOD, or OTHER.
 
 **Logical Model**
-![](ERDandFlows\StateChartDiagram.jpg)
+![](ERDandFlows/StateChartDiagram.jpg)
 
 **Physical Model**
 ![](./imgs/physical.jpg)
