@@ -57,7 +57,7 @@ Through this project I developed and used a variety of skills, including the one
 
 **Use Case Diagram**
 <br>
-    <img src="../ERDandFlows/ERDandFlows/UserCaseDiagram.jpg">
+    <img src="../ERDandFlows/../ERDandFlows/UserCaseDiagram.jpg">
 <br>
 
 **Activity Diagram**
