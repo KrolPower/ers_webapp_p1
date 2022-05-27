@@ -11,9 +11,9 @@
 	</parent>
 	
 	<groupId>net.javaguides</groupId>
-	<artifactId>sprintboot-postgresql-hibernate-crud-example</artifactId>
+	<artifactId>osborne_chris_p1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sprintboot-postgresql-hibernate-crud-example</name>
+	<name>osborne_chris_p1</name>
 	<description>Spring Boot PostgreSQL JPA, Hibernate CRUD Restful API example</description>
 	
 	<properties>
