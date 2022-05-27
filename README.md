@@ -41,7 +41,9 @@ Through this project I developed and used a variety of skills, including the one
 
 ## Flowcharts
 **State-chart Diagram (Reimbursement Statuses)** 
-![](./imgs/state-chart.jpg)
+<br>
+<img src="./imgs/state-chart.jpg" style="background-color: #000000;">
+<br>
 
 **Reimbursement Types**
 
